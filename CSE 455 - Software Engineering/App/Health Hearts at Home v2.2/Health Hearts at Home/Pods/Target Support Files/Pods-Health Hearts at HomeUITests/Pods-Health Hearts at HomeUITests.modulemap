@@ -1,0 +1,6 @@
+framework module Pods_Health_Hearts_at_HomeUITests {
+  umbrella header "Pods-Health Hearts at HomeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

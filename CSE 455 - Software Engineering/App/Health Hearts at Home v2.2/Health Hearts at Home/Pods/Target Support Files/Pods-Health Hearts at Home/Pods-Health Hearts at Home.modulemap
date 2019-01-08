@@ -1,0 +1,6 @@
+framework module Pods_Health_Hearts_at_Home {
+  umbrella header "Pods-Health Hearts at Home-umbrella.h"
+
+  export *
+  module * { export * }
+}

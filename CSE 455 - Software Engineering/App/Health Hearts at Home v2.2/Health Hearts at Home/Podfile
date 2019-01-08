@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Health Hearts at Home' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Health Hearts at Home
+  pod 'Charts'
+
+  target 'Health Hearts at HomeTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'Health Hearts at HomeUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

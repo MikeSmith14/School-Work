@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_Health_Hearts_at_HomeTests : NSObject
+@end
+@implementation PodsDummy_Pods_Health_Hearts_at_HomeTests
+@end
