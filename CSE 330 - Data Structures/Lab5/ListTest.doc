@@ -1,0 +1,14 @@
+﻿
+Script started on Sun 26 Feb 2017 04:44:51 PM PST
+#]0;mike@mike-virtual-machine ~/Desktop/projects/Lab5##[01;32mmike@mike-virtual-machine#[00m #[01;34m~/Desktop/projects/Lab5 $#[00m g++ List_test.cpp
+#]0;mike@mike-virtual-machine ~/Desktop/projects/Lab5##[01;32mmike@mike-virtual-machine#[00m #[01;34m~/Desktop/projects/Lab5 $#[00m ./a.out
+SUCCESS
+#]0;mike@mike-virtual-machine ~/Desktop/projects/Lab5##[01;32mmike@mike-virtual-machine#[00m #[01;34m~/Desktop/projects/Lab5 $#[00m g++ test.cpp
+#]0;mike@mike-virtual-machine ~/Desktop/projects/Lab5##[01;32mmike@mike-virtual-machine#[00m #[01;34m~/Desktop/projects/Lab5 $#[00m ./a.out
+44
+33
+11
+22
+#]0;mike@mike-virtual-machine ~/Desktop/projects/Lab5##[01;32mmike@mike-virtual-machine#[00m #[01;34m~/Desktop/projects/Lab5 $#[00m exit
+
+Script done on Sun 26 Feb 2017 04:45:14 PM PST

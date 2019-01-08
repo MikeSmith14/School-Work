@@ -1,0 +1,15 @@
+Script started on Sun 19 Mar 2017 01:21:01 PM PDT
+]0;mike@mike-virtual-machine ~/Desktop/projects/lab8[01;32mmike@mike-virtual-machine[00m [01;34m~/Desktop/projects/lab8 $[00m g++ test.cpp
+]0;mike@mike-virtual-machine ~/Desktop/projects/lab8[01;32mmike@mike-virtual-machine[00m [01;34m~/Desktop/projects/lab8 $[00m ./a.out
+6
+8
+9
+10
+11
+All tests passed.
+]0;mike@mike-virtual-machine ~/Desktop/projects/lab8[01;32mmike@mike-virtual-machine[00m [01;34m~/Desktop/projects/lab8 $[00m g++ Set_test.cpp
+]0;mike@mike-virtual-machine ~/Desktop/projects/lab8[01;32mmike@mike-virtual-machine[00m [01;34m~/Desktop/projects/lab8 $[00m ./a.out
+All tests passed.
+]0;mike@mike-virtual-machine ~/Desktop/projects/lab8[01;32mmike@mike-virtual-machine[00m [01;34m~/Desktop/projects/lab8 $[00m exit
+
+Script done on Sun 19 Mar 2017 01:21:23 PM PDT

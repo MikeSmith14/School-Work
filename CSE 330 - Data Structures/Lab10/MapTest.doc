@@ -1,0 +1,16 @@
+Script started on Sun 19 Mar 2017 01:53:50 PM PDT
+]0;mike@mike-virtual-machine ~/Desktop/projects/Lab10[01;32mmike@mike-virtual-machine[00m [01;34m~/Desktop/projects/Lab10 $[00m g++ test.cpp
+]0;mike@mike-virtual-machine ~/Desktop/projects/Lab10[01;32mmike@mike-virtual-machine[00m [01;34m~/Desktop/projects/Lab10 $[00m ./a.out
+5 7 3
+]0;mike@mike-virtual-machine ~/Desktop/projects/Lab10[01;32mmike@mike-virtual-machine[00m [01;34m~/Desktop/projects/Lab10 $[00m g++ Test_map.cpp
+]0;mike@mike-virtual-machine ~/Desktop/projects/Lab10[01;32mmike@mike-virtual-machine[00m [01;34m~/Desktop/projects/Lab10 $[00m ./a.out
+abby -100
+billy 6
+binky 100
+bobby -4
+charles 0
+katie -2
+Success!
+]0;mike@mike-virtual-machine ~/Desktop/projects/Lab10[01;32mmike@mike-virtual-machine[00m [01;34m~/Desktop/projects/Lab10 $[00m exit
+
+Script done on Sun 19 Mar 2017 01:54:10 PM PDT

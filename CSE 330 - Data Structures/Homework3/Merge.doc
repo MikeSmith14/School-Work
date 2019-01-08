@@ -1,0 +1,27 @@
+Script started on Tue 07 Mar 2017 10:37:46 PM PST
+]0;mike@mike-virtual-machine ~/Desktop/projects/Hmwk3[01;32mmike@mike-virtual-machine[00m [01;34m~/Desktop/projects/Hmwk3 $[00m g__+[K[K[K[Kexit
+
+Script done on Tue 07 Mar 2017 10:37:52 PM PST
+Script started on Tue 07 Mar 2017 10:37:56 PM PST
+]0;mike@mike-virtual-machine ~/Desktop/projects/Hmwk3[01;32mmike@mike-virtual-machine[00m [01;34m~/Desktop/projects/Hmwk3 $[00m g++ main.cpp
+main.cpp: In instantiation of ‘[01m[Kvoid m_sort(Itr, unsigned int, unsigned int) [with Itr = std::_List_iterator<int>][m[K’:
+[01m[Kmain.cpp:78:8:[m[K   required from ‘[01m[Kvoid mergeSort(std::__cxx11::list<T>&) [with T = int][m[K’
+[01m[Kmain.cpp:90:13:[m[K   required from here
+[01m[Kmain.cpp:68:15:[m[K [01;31m[Kerror: [m[K‘[01m[Knext[m[K’ was not declared in this scope
+   Itr L = next( start,low );
+[01;32m[K               ^[m[K
+[01m[Kmain.cpp:69:15:[m[K [01;31m[Kerror: [m[K‘[01m[Knext[m[K’ was not declared in this scope, and no declarations were found by argument-dependent lookup at the point of instantiation [-fpermissive]
+   Itr C = next( start,center );
+[01;32m[K               ^[m[K
+[01m[Kmain.cpp:68:15:[m[K [01;36m[Knote: [m[K‘[01m[Knext[m[K’ declared here, later in the translation unit
+   Itr L = next( start,low );
+[01;32m[K               ^[m[K
+[01m[Kmain.cpp:70:15:[m[K [01;31m[Kerror: [m[K‘[01m[Knext[m[K’ was not declared in this scope, and no declarations were found by argument-dependent lookup at the point of instantiation [-fpermissive]
+   Itr H = next( start,high );
+[01;32m[K               ^[m[K
+[01m[Kmain.cpp:68:15:[m[K [01;36m[Knote: [m[K‘[01m[Knext[m[K’ declared here, later in the translation unit
+   Itr L = next( start,low );
+[01;32m[K               ^[m[K
+]0;mike@mike-virtual-machine ~/Desktop/projects/Hmwk3[01;32mmike@mike-virtual-machine[00m [01;34m~/Desktop/projects/Hmwk3 $[00m exit
+
+Script done on Tue 07 Mar 2017 10:38:11 PM PST

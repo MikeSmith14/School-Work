@@ -1,0 +1,9 @@
+Script started on Sun 05 Feb 2017 12:21:10 PM PST
+]0;mike@mike-virtual-machine ~/Desktop/projects/Lab3/Lab3[01;32mmike@mike-virtual-machine[00m [01;34m~/Desktop/projects/Lab3/Lab3 $[00m g++ -s [K[Kc String.c[Kcpp
+]0;mike@mike-virtual-machine ~/Desktop/projects/Lab3/Lab3[01;32mmike@mike-virtual-machine[00m [01;34m~/Desktop/projects/Lab3/Lab3 $[00m g++ -c String_test.cpp
+]0;mike@mike-virtual-machine ~/Desktop/projects/Lab3/Lab3[01;32mmike@mike-virtual-machine[00m [01;34m~/Desktop/projects/Lab3/Lab3 $[00m g++ String.o String_tes t.o
+]0;mike@mike-virtual-machine ~/Desktop/projects/Lab3/Lab3[01;32mmike@mike-virtual-machine[00m [01;34m~/Desktop/projects/Lab3/Lab3 $[00m ./a.out
+SUCCESS
+]0;mike@mike-virtual-machine ~/Desktop/projects/Lab3/Lab3[01;32mmike@mike-virtual-machine[00m [01;34m~/Desktop/projects/Lab3/Lab3 $[00m exit
+
+Script done on Sun 05 Feb 2017 12:21:47 PM PST

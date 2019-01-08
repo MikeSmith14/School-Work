@@ -1,0 +1,20 @@
+Script started on Sun 29 Jan 2017 09:37:58 PM PST
+]0;mike@mike-MacBookPro ~/Desktop/projects/Homework/Homework1/Homework1[01;32mmike@mike-MacBookPro[00m [01;34m~/Desktop/projects/Homework/Homework1/Homework1 $[00m date
+Sun Jan 29 21:38:01 PST 2017
+]0;mike@mike-MacBookPro ~/Desktop/projects/Homework/Homework1/Homework1[01;32mmike@mike-MacBookPro[00m [01;34m~/Desktop/projects/Homework/Homework1/Homework1 $[00m g++ main. cpp
+]0;mike@mike-MacBookPro ~/Desktop/projects/Homework/Homework1/Homework1[01;32mmike@mike-MacBookPro[00m [01;34m~/Desktop/projects/Homework/Homework1/Homework1 $[00m ./a.out
+Enter a list of numbers, no more then 100 numbers:
+10
+2
+5
+20
+8
+1
+6
+15
+
+The average is : 8.375
+The variance is : 41.9821]0;mike@mike-MacBookPro ~/Desktop/projects/Homework/Homework1/Homework1[01;32mmike@mike-MacBookPro[00m [01;34m~/Desktop/projects/Homework/Homework1/Homework1 $[00m exit
+exit
+
+Script done on Sun 29 Jan 2017 09:38:23 PM PST

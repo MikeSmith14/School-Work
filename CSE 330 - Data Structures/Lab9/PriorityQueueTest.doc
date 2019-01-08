@@ -1,0 +1,21 @@
+Script started on Mon 13 Mar 2017 02:23:47 PM PDT
+]0;005467289@jb358-8:/students/csci/005467289/CSE330/Lab 9]7;file://jb358-8.cse.csusb.edu/students/csci/005467289/CSE330/Lab%209[?1034h[005467289@jb358-8 Lab 9]$ g++ testcpp[K[K[K.cpp
+]0;005467289@jb358-8:/students/csci/005467289/CSE330/Lab 9]7;file://jb358-8.cse.csusb.edu/students/csci/005467289/CSE330/Lab%209[005467289@jb358-8 Lab 9]$ ./a.out
+16
+14
+9
+10
+12
+7
+8
+5
+2
+11
+3
+16 14 12 11 10 9 8 7 5 3 2 
+]0;005467289@jb358-8:/students/csci/005467289/CSE330/Lab 9]7;file://jb358-8.cse.csusb.edu/students/csci/005467289/CSE330/Lab%209[005467289@jb358-8 Lab 9]$ g++ Priu[Kority_queue_[1Pueue_Queue_[C[C[C[C[Ctest.cpp
+]0;005467289@jb358-8:/students/csci/005467289/CSE330/Lab 9]7;file://jb358-8.cse.csusb.edu/students/csci/005467289/CSE330/Lab%209[005467289@jb358-8 Lab 9]$ ./a.out
+All tests passed.
+]0;005467289@jb358-8:/students/csci/005467289/CSE330/Lab 9]7;file://jb358-8.cse.csusb.edu/students/csci/005467289/CSE330/Lab%209[005467289@jb358-8 Lab 9]$ exit
+
+Script done on Mon 13 Mar 2017 02:24:51 PM PDT

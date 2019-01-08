@@ -1,0 +1,15 @@
+Script started on Sun 22 Jan 2017 10:51:36 PM PST
+]0;mike@mike-MacBookPro ~/Desktop/projects/Lab1[01;32mmike@mike-MacBookPro[00m [01;34m~/Desktop/projects/Lab1 $[00m ls
+[0m[01;32ma.out[0m  [01;32mexpr[0m      expr.o          Lab1.cbp     Lab1.layout  typescript
+[01;34mbin[0m    expr.cpp  exproutput.doc  Lab1.depend  [01;34mobj[0m
+]0;mike@mike-MacBookPro ~/Desktop/projects/Lab1[01;32mmike@mike-MacBookPro[00m [01;34m~/Desktop/projects/Lab1 $[00m g++ expr.cpp
+]0;mike@mike-MacBookPro ~/Desktop/projects/Lab1[01;32mmike@mike-MacBookPro[00m [01;34m~/Desktop/projects/Lab1 $[00m ./a.out
+a+b*c
+abc*+
+(a-2)/(5-d)
+a2-5d-/
+a+((b-c)*d)/e
+abc-d*e/+
+]0;mike@mike-MacBookPro ~/Desktop/projects/Lab1[01;32mmike@mike-MacBookPro[00m [01;34m~/Desktop/projects/Lab1 $[00m exit
+
+Script done on Sun 22 Jan 2017 10:52:25 PM PST

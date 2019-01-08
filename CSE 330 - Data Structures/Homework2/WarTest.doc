@@ -1,0 +1,249 @@
+Script started on Sun 12 Feb 2017 11:09:18 PM PST
+]0;mike@mike-virtual-machine ~/Desktop/projects/Homework2[01;32mmike@mike-virtual-machine[00m [01;34m~/Desktop/projects/Homework2 $[00m g++ -c Des[Kck.cpp
+]0;mike@mike-virtual-machine ~/Desktop/projects/Homework2[01;32mmike@mike-virtual-machine[00m [01;34m~/Desktop/projects/Homework2 $[00m g++ -c Card.cpp
+]0;mike@mike-virtual-machine ~/Desktop/projects/Homework2[01;32mmike@mike-virtual-machine[00m [01;34m~/Desktop/projects/Homework2 $[00m g++ -c Player.cpp
+]0;mike@mike-virtual-machine ~/Desktop/projects/Homework2[01;32mmike@mike-virtual-machine[00m [01;34m~/Desktop/projects/Homework2 $[00m g++ -c HumanPal[K[Klaue[K[Kyer.cpp
+]0;mike@mike-virtual-machine ~/Desktop/projects/Homework2[01;32mmike@mike-virtual-machine[00m [01;34m~/Desktop/projects/Homework2 $[00m g++ -c Random.cpp
+]0;mike@mike-virtual-machine ~/Desktop/projects/Homework2[01;32mmike@mike-virtual-machine[00m [01;34m~/Desktop/projects/Homework2 $[00m g++ -c Main.cpp[K[K[K[K[K[K[K[Kmain.cpp
+]0;mike@mike-virtual-machine ~/Desktop/projects/Homework2[01;32mmike@mike-virtual-machine[00m [01;34m~/Desktop/projects/Homework2 $[00m g__ [K[K[K++ -o war main.o main[K[K[K[Kca[K[KCard. o Deck.o Player.o HumanPlayer.o Random.o
+]0;mike@mike-virtual-machine ~/Desktop/projects/Homework2[01;32mmike@mike-virtual-machine[00m [01;34m~/Desktop/projects/Homework2 $[00m ./war
+You currently hold in your hand:
+a) 7 of Clubs
+b) 2 of Clubs
+c) 2 of Diamonds
+Which one do you want to play? a
+Player 1 plays: 7 of Clubs
+Player 2 plays: 7 of Spades
+Players tie
+
+You currently hold in your hand:
+a) 3 of Spades
+b) 2 of Clubs
+c) 2 of Diamonds
+Which one do you want to play? a
+Player 1 plays: 3 of Spades
+Player 2 plays: King of Hearts
+Player 2 wins this round
+
+You currently hold in your hand:
+a) Ace of Clubs
+b) 2 of Clubs
+c) 2 of Diamonds
+Which one do you want to play? c
+Player 1 plays: 2 of Diamonds
+Player 2 plays: 8 of Spades
+Player 2 wins this round
+
+You currently hold in your hand:
+a) Ace of Clubs
+b) 2 of Clubs
+c) 9 of Clubs
+Which one do you want to play? c
+Player 1 plays: 9 of Clubs
+Player 2 plays: 8 of Diamonds
+Player 1 wins this round
+
+You currently hold in your hand:
+a) Ace of Clubs
+b) 2 of Clubs
+c) 5 of Spades
+Which one do you want to play? c
+Player 1 plays: 5 of Spades
+Player 2 plays: 10 of Diamonds
+Player 2 wins this round
+
+You currently hold in your hand:
+a) Ace of Clubs
+b) 2 of Clubs
+c) 4 of Diamonds
+Which one do you want to play? c
+Player 1 plays: 4 of Diamonds
+Player 2 plays: 10 of Clubs
+Player 2 wins this round
+
+You currently hold in your hand:
+a) Ace of Clubs
+b) 2 of Clubs
+c) 6 of Spades
+Which one do you want to play? c
+Player 1 plays: 6 of Spades
+Player 2 plays: Queen of Clubs
+Player 2 wins this round
+
+You currently hold in your hand:
+a) Ace of Clubs
+b) 2 of Clubs
+c) 2 of Spades
+Which one do you want to play? b
+Player 1 plays: 2 of Clubs
+Player 2 plays: 3 of Hearts
+Player 2 wins this round
+
+You currently hold in your hand:
+a) Ace of Clubs
+b) King of Clubs
+c) 2 of Spades
+Which one do you want to play? b
+Player 1 plays: King of Clubs
+Player 2 plays: Jack of Spades
+Player 1 wins this round
+
+You currently hold in your hand:
+a) Ace of Clubs
+b) 3 of Diamonds
+c) 2 of Spades
+Which one do you want to play? b
+Player 1 plays: 3 of Diamonds
+Player 2 plays: 7 of Diamonds
+Player 2 wins this round
+
+You currently hold in your hand:
+a) Ace of Clubs
+b) King of Diamonds
+c) 2 of Spades
+Which one do you want to play? b
+Player 1 plays: King of Diamonds
+Player 2 plays: 6 of Hearts
+Player 1 wins this round
+
+You currently hold in your hand:
+a) Ace of Clubs
+b) Ace of Spades
+c) 2 of Spades
+Which one do you want to play? b
+Player 1 plays: Ace of Spades
+Player 2 plays: 5 of Clubs
+Player 2 wins this round
+
+You currently hold in your hand:
+a) Ace of Clubs
+b) 4 of Spades
+c) 2 of Spades
+Which one do you want to play? b
+Player 1 plays: 4 of Spades
+Player 2 plays: 4 of Hearts
+Players tie
+
+You currently hold in your hand:
+a) Ace of Clubs
+b) 9 of Spades
+c) 2 of Spades
+Which one do you want to play? b
+Player 1 plays: 9 of Spades
+Player 2 plays: Ace of Hearts
+Player 1 wins this round
+
+You currently hold in your hand:
+a) Ace of Clubs
+b) Jack of Hearts
+c) 2 of Spades
+Which one do you want to play? b
+Player 1 plays: Jack of Hearts
+Player 2 plays: 9 of Hearts
+Player 1 wins this round
+
+You currently hold in your hand:
+a) Ace of Clubs
+b) Queen of Spades
+c) 2 of Spades
+Which one do you want to play? b
+Player 1 plays: Queen of Spades
+Player 2 plays: 10 of Spades
+Player 1 wins this round
+
+You currently hold in your hand:
+a) Ace of Clubs
+b) 8 of Hearts
+c) 2 of Spades
+Which one do you want to play? b
+Player 1 plays: 8 of Hearts
+Player 2 plays: 3 of Clubs
+Player 1 wins this round
+
+You currently hold in your hand:
+a) Ace of Clubs
+b) 10 of Hearts
+c) 2 of Spades
+Which one do you want to play? b
+Player 1 plays: 10 of Hearts
+Player 2 plays: King of Spades
+Player 2 wins this round
+
+You currently hold in your hand:
+a) Ace of Clubs
+b) 7 of Hearts
+c) 2 of Spades
+Which one do you want to play? b
+Player 1 plays: 7 of Hearts
+Player 2 plays: 6 of Clubs
+Player 1 wins this round
+
+You currently hold in your hand:
+a) Ace of Clubs
+b) 2 of Hearts
+c) 2 of Spades
+Which one do you want to play? c
+Player 1 plays: 2 of Spades
+Player 2 plays: Jack of Clubs
+Player 2 wins this round
+
+You currently hold in your hand:
+a) Ace of Clubs
+b) 2 of Hearts
+c) 5 of Hearts
+Which one do you want to play? c
+Player 1 plays: 5 of Hearts
+Player 2 plays: Queen of Hearts
+Player 2 wins this round
+
+You currently hold in your hand:
+a) Ace of Clubs
+b) 2 of Hearts
+c) Ace of Diamonds
+Which one do you want to play? c b
+Player 1 plays: 2 of Hearts
+Player 2 plays: 9 of Diamonds
+Player 2 wins this round
+
+You currently hold in your hand:
+a) Ace of Clubs
+b) 8 of Clubs
+c) Ace of Diamonds
+Which one do you want to play? b
+Player 1 plays: 8 of Clubs
+Player 2 plays: 4 of Clubs
+Player 1 wins this round
+
+You currently hold in your hand:
+a) Ace of Clubs
+b) Queen of Diamonds
+c) Ace of Diamonds
+Which one do you want to play? b
+Player 1 plays: Queen of Diamonds
+Player 2 plays: Jack of Diamonds
+Player 1 wins this round
+
+You currently hold in your hand:
+a) Ace of Clubs
+b) Ace of Spades
+c) Ace of Diamonds
+Which one do you want to play? c
+Player 1 plays: Ace of Diamonds
+Player 2 plays: 6 of Diamonds
+Player 2 wins this round
+
+You currently hold in your hand:
+a) Ace of Clubs
+b) Ace of Spades
+c) Ace of Spades
+Which one do you want to play? a
+Player 1 plays: Ace of Clubs
+Player 2 plays: 5 of Diamonds
+Player 2 wins this round
+
+Player 1 score: 22
+Player 2 score: 30
+Player 2 wins
+]0;mike@mike-virtual-machine ~/Desktop/projects/Homework2[01;32mmike@mike-virtual-machine[00m [01;34m~/Desktop/projects/Homework2 $[00m exit
+
+Script done on Sun 12 Feb 2017 11:11:46 PM PST

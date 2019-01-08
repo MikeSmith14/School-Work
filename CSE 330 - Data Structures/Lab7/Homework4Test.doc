@@ -1,0 +1,9 @@
+Script started on Sat 18 Mar 2017 12:20:24 PM PDT
+]0;mike@mike-virtual-machine ~/Desktop/projects/Lab7[01;32mmike@mike-virtual-machine[00m [01;34m~/Desktop/projects/Lab7 $[00m g++ main.cpp
+]0;mike@mike-virtual-machine ~/Desktop/projects/Lab7[01;32mmike@mike-virtual-machine[00m [01;34m~/Desktop/projects/Lab7 $[00m ./a.out
+3 2 
+3 2 60 70 
+70 
+]0;mike@mike-virtual-machine ~/Desktop/projects/Lab7[01;32mmike@mike-virtual-machine[00m [01;34m~/Desktop/projects/Lab7 $[00m exit
+
+Script done on Sat 18 Mar 2017 12:20:38 PM PDT

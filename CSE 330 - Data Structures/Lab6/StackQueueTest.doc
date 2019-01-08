@@ -1,0 +1,14 @@
+Script started on Sun 26 Feb 2017 06:14:40 PM PST
+]0;mike@mike-virtual-machine ~/Desktop/projects/Lab6[01;32mmike@mike-virtual-machine[00m [01;34m~/Desktop/projects/Lab6 $[00m g++ Stack_test.cpp ../Lab3/S tring.cpp
+]0;mike@mike-virtual-machine ~/Desktop/projects/Lab6[01;32mmike@mike-virtual-machine[00m [01;34m~/Desktop/projects/Lab6 $[00m ./a.out
+SUCCESS
+]0;mike@mike-virtual-machine ~/Desktop/projects/Lab6[01;32mmike@mike-virtual-machine[00m [01;34m~/Desktop/projects/Lab6 $[00m g++ test.cpp
+]0;mike@mike-virtual-machine ~/Desktop/projects/Lab6[01;32mmike@mike-virtual-machine[00m [01;34m~/Desktop/projects/Lab6 $[00m ./a.out
+6
+1.5
+]0;mike@mike-virtual-machine ~/Desktop/projects/Lab6[01;32mmike@mike-virtual-machine[00m [01;34m~/Desktop/projects/Lab6 $[00m g++ Queue_test.cpp ../Lab3/S tring.cpp
+]0;mike@mike-virtual-machine ~/Desktop/projects/Lab6[01;32mmike@mike-virtual-machine[00m [01;34m~/Desktop/projects/Lab6 $[00m ./a.out
+SUCCESS
+]0;mike@mike-virtual-machine ~/Desktop/projects/Lab6[01;32mmike@mike-virtual-machine[00m [01;34m~/Desktop/projects/Lab6 $[00m exit
+
+Script done on Sun 26 Feb 2017 06:15:32 PM PST

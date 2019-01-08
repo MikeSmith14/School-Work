@@ -1,0 +1,12 @@
+Script started on Sun 05 Mar 2017 11:24:43 PM PST
+]0;mike@mike-virtual-machine ~/Desktop/projects/Lab7[01;32mmike@mike-virtual-machine[00m [01;34m~/Desktop/projects/Lab7 $[00m g++ test.cpp
+]0;mike@mike-virtual-machine ~/Desktop/projects/Lab7[01;32mmike@mike-virtual-machine[00m [01;34m~/Desktop/projects/Lab7 $[00m ./a.opu[K[Kout[K[K[Kut
+3 2 1 10 20 
+]0;mike@mike-virtual-machine ~/Desktop/projects/Lab7[01;32mmike@mike-virtual-machine[00m [01;34m~/Desktop/projects/Lab7 $[00m g++ Deque_test.cpp
+]0;mike@mike-virtual-machine ~/Desktop/projects/Lab7[01;32mmike@mike-virtual-machine[00m [01;34m~/Desktop/projects/Lab7 $[00m ./a.out
+3 2 1 0 
+0 1 2 3 
+SUCCESS
+]0;mike@mike-virtual-machine ~/Desktop/projects/Lab7[01;32mmike@mike-virtual-machine[00m [01;34m~/Desktop/projects/Lab7 $[00m exit
+
+Script done on Sun 05 Mar 2017 11:25:10 PM PST
