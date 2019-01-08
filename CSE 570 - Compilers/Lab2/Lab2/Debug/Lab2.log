@@ -1,0 +1,27 @@
+﻿  lab2.cpp
+c:\users\user\source\repos\lab2\lab2\lab2.cpp(70): warning C4018: '<': signed/unsigned mismatch
+c:\users\user\source\repos\lab2\lab2\lab2.cpp(77): warning C4018: '<': signed/unsigned mismatch
+c:\users\user\source\repos\lab2\lab2\lab2.cpp(87): warning C4018: '<': signed/unsigned mismatch
+c:\users\user\source\repos\lab2\lab2\lab2.cpp(99): warning C4018: '<': signed/unsigned mismatch
+c:\users\user\source\repos\lab2\lab2\lab2.cpp(105): warning C4018: '<': signed/unsigned mismatch
+c:\users\user\source\repos\lab2\lab2\lab2.cpp(108): warning C4018: '<': signed/unsigned mismatch
+c:\users\user\source\repos\lab2\lab2\lab2.cpp(112): warning C4018: '<': signed/unsigned mismatch
+c:\users\user\source\repos\lab2\lab2\lab2.cpp(125): warning C4018: '<': signed/unsigned mismatch
+c:\users\user\source\repos\lab2\lab2\lab2.cpp(135): warning C4018: '<': signed/unsigned mismatch
+c:\users\user\source\repos\lab2\lab2\lab2.cpp(150): warning C4018: '<': signed/unsigned mismatch
+c:\users\user\source\repos\lab2\lab2\lab2.cpp(161): warning C4018: '<': signed/unsigned mismatch
+c:\users\user\source\repos\lab2\lab2\lab2.cpp(168): warning C4018: '<': signed/unsigned mismatch
+c:\users\user\source\repos\lab2\lab2\lab2.cpp(169): warning C4018: '<': signed/unsigned mismatch
+c:\users\user\source\repos\lab2\lab2\lab2.cpp(171): warning C4018: '<': signed/unsigned mismatch
+c:\users\user\source\repos\lab2\lab2\lab2.cpp(176): warning C4018: '<': signed/unsigned mismatch
+c:\users\user\source\repos\lab2\lab2\lab2.cpp(189): warning C4018: '<': signed/unsigned mismatch
+c:\users\user\source\repos\lab2\lab2\lab2.cpp(190): warning C4018: '<': signed/unsigned mismatch
+c:\users\user\source\repos\lab2\lab2\lab2.cpp(192): warning C4018: '<': signed/unsigned mismatch
+c:\users\user\source\repos\lab2\lab2\lab2.cpp(197): warning C4018: '<': signed/unsigned mismatch
+c:\users\user\source\repos\lab2\lab2\lab2.cpp(209): warning C4018: '<': signed/unsigned mismatch
+c:\users\user\source\repos\lab2\lab2\lab2.cpp(210): warning C4018: '<': signed/unsigned mismatch
+c:\users\user\source\repos\lab2\lab2\lab2.cpp(212): warning C4018: '<': signed/unsigned mismatch
+c:\users\user\source\repos\lab2\lab2\lab2.cpp(221): warning C4018: '<': signed/unsigned mismatch
+c:\users\user\source\repos\lab2\lab2\lab2.cpp(227): warning C4018: '<': signed/unsigned mismatch
+c:\users\user\source\repos\lab2\lab2\lab2.cpp(242): warning C4018: '<': signed/unsigned mismatch
+  Lab2.vcxproj -> C:\Users\user\source\repos\Lab2\Debug\Lab2.exe

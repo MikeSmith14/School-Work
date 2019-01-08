@@ -1,0 +1,5 @@
+# calc3
+bison -y -d proj.y
+flex proj.l
+gcc -c y.tab.c lex.yy.c 
+gcc y.tab.o lex.yy.o proja.c -o proj
