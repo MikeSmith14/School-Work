@@ -1,0 +1,12 @@
+Script started on Wed 26 Apr 2017 12:10:02 PM PDT
+]0;mike@mike-virtual-machine ~/Desktop/Cse313/Lab2[01;32mmike@mike-virtual-machine[00m [01;34m~/Desktop/Cse313/Lab2 $[00m g++ Lab2.cpp
+]0;mike@mike-virtual-machine ~/Desktop/Cse313/Lab2[01;32mmike@mike-virtual-machine[00m [01;34m~/Desktop/Cse313/Lab2 $[00m ./a.out
+Input Unsigned 32 bit Integer: 12
+String Conversion Value = 12
+Hex = 0000000C
+Octal = 00000000014
+Binary = 00000000000000000000000000001100
+Decimal = 0000000012
+]0;mike@mike-virtual-machine ~/Desktop/Cse313/Lab2[01;32mmike@mike-virtual-machine[00m [01;34m~/Desktop/Cse313/Lab2 $[00m exit
+
+Script done on Wed 26 Apr 2017 12:10:23 PM PDT
