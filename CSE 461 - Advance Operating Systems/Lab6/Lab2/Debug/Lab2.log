@@ -1,0 +1,4 @@
+﻿  Shell.cpp
+c:\users\user\desktop\my stuff\cse461\lab6\lab2\shell.cpp(14): warning C4018: '<': signed/unsigned mismatch
+c:\users\user\desktop\my stuff\cse461\lab6\lab2\shell.cpp(32): warning C4018: '<': signed/unsigned mismatch
+  Lab2.vcxproj -> C:\Users\user\Desktop\My Stuff\CSE461\Lab6\Debug\Lab2.exe
