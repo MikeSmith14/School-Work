@@ -1,0 +1,309 @@
+#include "Singly_LList.h"
+
+class Doubly:public Singly_llist
+{
+public:
+	Doubly() {}
+	void insert(float num);
+	void delete_node(float num);
+};
+
+#include "Doubly.h"
+#include <iostream>
+
+using namespace std;
+
+void Doubly::insert(float num)
+{
+	float value = num;
+	Node *temp;
+	Node *new_node = new Node;
+
+	if (first == NULL) {
+		first = new Node();
+		first->data = value;
+		first->forward = NULL;
+		first->backward = NULL;
+	}
+
+	else {
+		temp = search(value);
+		if (temp == first) {
+			if (temp->data >= value) {		//Verifies that the new node is either before or after and corrects pointers
+			
+				new_node->data = value;
+				new_node->forward = first;
+				first->backward = new_node;
+				new_node->backward = NULL;
+				first = new_node;
+			}
+			else {
+				new_node->data = value;
+				new_node->forward = first->forward;
+				new_node->backward = first;
+				first->forward = new_node;
+			}
+		}
+		else {
+			if (temp == NULL){
+				temp = new_node;
+				new_node->forward = first;
+				new_node->backward = NULL;
+				new_node->data = value;
+				first = new_node;
+			}
+			else{
+				if (temp->data < value)	{
+					new_node->data = value;
+					new_node->forward = temp->forward;
+					new_node->backward = temp;
+					temp->forward = new_node;
+				}
+				else{
+					new_node->data = value;
+					new_node->forward = temp;
+					new_node->backward = temp->backward;
+					temp->backward = new_node;
+					temp->forward = NULL;
+				}
+			}
+		}
+	}
+}
+
+void Doubly::delete_node(float num)
+{
+	Node *temp;
+	float value = num;
+
+	temp = search(value);
+	if (temp == first){.
+		if (temp->data == value){
+			first = temp->forward;
+			return;
+		}
+	}
+	if (temp->forward != NULL){
+		if (temp->forward->data == value){
+			temp->forward->data = NULL;		//nulls the data in the element in front of the returned node
+			temp->forward = temp->forward->forward;		//points the forward to the foward of the next element
+			temp->forward->forward->backward = temp;	//points the backward of the next element to the temp
+		}
+		else{
+			cout << "Value is not in the list! \n";
+		}
+	}
+	else {
+		cout << "Value is not in the list! \n";
+	}
+}
+
+/*
+This is the header for the Singly Linked List class. Defines specific attributes and functions that are completely inclusive to
+this class. Functions will include a Sort(), Read(), Search(), Insert(), and Delete_node(). The list is made up of nodes that contain a
+floating point data, and a single pointer pointing to the next link in the list. Therefore the list will only have one way
+transverses.
+
+Singly_LList.h
+
+*/
+
+#include <iostream>
+
+//Header for the singly_llist class
+class Node
+{
+public:
+	float data;
+	Node* forward;
+	Node* backward;
+};
+
+class Singly_llist:public Node
+{
+
+public:
+
+	Node * first;
+	Node *last;
+
+	Singly_llist()
+	{
+		first = NULL;
+		last = NULL;
+	}
+	void insert();
+	void delete_node();
+	void read();
+	Node* search(float value);
+};
+
+#include "Singly_LList.h"
+#include <iostream>
+
+using namespace std;
+
+//Inserts values to the list, checks if empty and adds first element
+void Singly_llist::insert()
+{
+	float value;
+	Node *temp;
+	Node *new_node = new Node;
+
+	cout << "Please enter a value to add to the list: ";
+	cin >> value;
+
+	//Creates the first value if the list is empty
+	if (first == NULL){
+		first = new Node();
+		first->data = value;
+		first->forward = NULL;
+	}
+	else{
+		temp = search(value);
+		if (temp == first){
+			if (temp->data >= value) {     //since this is first node, have to check if its before or after..
+				new_node->data = value;
+				new_node->forward = first;
+				first = new_node;
+			}
+			else {
+				new_node->data = value;
+				new_node->forward = first->forward;
+				first->forward = new_node;
+			}
+		}
+		else {
+			if (temp == NULL) {
+				temp->forward = new_node;
+				new_node->data = value;
+				new_node->forward = NULL;
+			}
+			else {
+				if (temp->data < value) {
+					new_node->data = value;
+					new_node->forward = temp->forward;
+					temp->forward = new_node;
+				}
+				else {
+					new_node->data = value;
+					new_node->forward = temp;
+					temp->forward = NULL;
+				}
+			}
+		}
+	}
+
+
+}
+
+void Singly_llist::delete_node()
+{
+	Node *temp;
+	float value;
+
+	cout << "Please enter a value to remove from the list: ";
+	cin >> value;
+
+	temp = search(value);	//passes the value to search
+	if (temp == first) {
+		if (temp->data == value) {
+			first = temp->forward;
+			return;
+		}
+	}
+	if (temp->forward != NULL) {
+		if (temp->forward->data == value) {
+			temp->forward->data = NULL;			// Nulls the data in the element in front of temp
+			temp->forward = temp->forward->forward; //points forward to the forward of the next element
+		}
+		else {
+			cout << "Value not in List!\n";
+		}
+	}
+	else {
+		cout << "Value not in List!\n";
+	}
+
+}
+
+//Searches for the passed value in the list.
+//Since this is a single linked list and we cant go backward,
+//we have to always find the node BEFORE the insert or delete point...
+Node* Singly_llist::search(float value)
+{
+	Node *temp;
+
+	temp = first;
+	while (temp != NULL) {
+		if (temp->data >= value) {			//first lets see if the first node is a hit.
+			return temp;
+		}
+		if (temp->forward != NULL) {		//Now, lets peek forward 1 node if it exists.
+			if (temp->forward->data >= value)
+				return temp;
+		}
+		else {
+			return temp;					//return if forward doesnt
+		}
+
+		temp = temp->forward;
+	}
+	return temp;							//this will return base node if list is empty 
+}
+
+
+
+//Reads out the sorted list
+void Singly_llist::read()
+{
+	Node *temp = first;
+
+	//Empty Check
+	if (temp == NULL){
+		cout << "The list is currently empty." << endl;
+		return;
+	}
+
+	//Transverses the list and prints out values
+	cout << "The list is as follows:\n";
+	while (temp != NULL) {
+		cout << temp->data << "\n";
+		temp = temp->forward;
+	}
+}
+
+#include <iostream>
+#include "Doubly.h"
+
+
+using namespace std;
+
+int main() {
+
+	Doubly list;
+
+	cout << "Creating the list with specified elements. \n";
+	cout << "\n";
+	list.insert(54.15);
+	list.insert(11.42);
+	list.insert(12.19);
+	list.insert(83.40);
+	list.insert(15.27);
+	list.insert(60.17);
+	list.insert(-63.81);
+	list.insert(54.15);
+	list.insert(-1.394);
+	list.insert(-22.60);
+	list.read();
+	cout << "\n";
+	cout << "Deleting the specified elements. \n";
+	cout << "\n";
+	list.delete_node(12.19);
+	list.delete_node(27.33);
+	cout << "\n";
+	list.read();
+	int aint;
+	cin >> aint;
+	return 0;
+}
